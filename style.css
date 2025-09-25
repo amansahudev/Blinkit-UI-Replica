@@ -1,0 +1,766 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .ot {
+            min-height: 1000px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        :root {
+            --gcolor: #318616;
+            --ycolor: #f8cb46;
+
+        }
+
+        .a {
+            height: 80px;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 20px;
+            padding-left: 0px;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+            border: 1px solid #f2f2f2;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .a1 {
+            height: 80px;
+            width: 170px;
+            text-align: center;
+            line-height: 80px;
+            box-sizing: border-box;
+            display: inline-block;
+            border: 1px solid #f2f2f2;
+
+        }
+
+        .a1 h1 {
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            color: var(--ycolor);
+        }
+
+        .a2 {
+            height: 80px;
+            width: 300px;
+            box-sizing: border-box;
+            display: inline-block;
+            padding-top: 20px;
+
+
+        }
+
+        .a2 h4 {
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+
+        }
+
+        .a2 p {
+            font-size: 10px;
+            font-weight: 500;
+            color: gray;
+            margin-top: 7px;
+        }
+
+        .a3 {
+            height: 50px;
+            width: 450px;
+            border: 1px solid #f2f2f2;
+            box-sizing: border-box;
+            display: inline-block;
+            border-radius: 15px;
+            line-height: 50px;
+            padding: 0px 10px;
+            background-color: #f8f8f8;
+        }
+
+        .a3 input {
+            height: 40px;
+            width: 300px;
+            border: none;
+            outline: none;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+
+        .a4 {
+            height: 80px;
+            width: 100px;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+
+
+        }
+
+        .btn {
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            line-height: 80px;
+            background-color: white;
+            border: none;
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+
+        .a5 {
+            height: 50px;
+            padding: 10px;
+            width: 120px;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            border-radius: 10px;
+            font-size: 13px;
+            background-color: #e5e5e5;
+        }
+
+        .b {
+            height: 220px;
+            width: 100%;
+
+            box-sizing: border-box;
+
+
+
+            background: url('images/1.webp');
+            background-size: cover;
+        }
+
+        .c {
+            height: 260px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+
+        }
+
+        .c1,
+        .c2,
+        .c3 {
+            height: 230px;
+            width: 32%;
+            margin-left: 10px;
+            background: url(images/r1.avif);
+            background-size: cover;
+            display: inline-block;
+        }
+
+        .c2 {
+            background: url(images/r2.avif);
+            background-size: cover;
+        }
+
+        .c3 {
+            background: url(images/r3.avif);
+            background-size: cover;
+
+        }
+
+        .d {
+            height: 180px;
+            width: 100%;
+            box-sizing: border-box;
+
+        }
+
+        .d1,
+        .d2,
+        .d3,
+        .d4,
+        .d5,
+        .d6,
+        .d7,
+        .d8,
+        .d9,
+        .d10 {
+            height: 100%;
+            width: 120px;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            background: url(images/r4.avif);
+            background-size: cover;
+
+        }
+
+        .d2 {
+            background: url(images/r5.avif);
+            background-size: cover;
+        }
+
+        .d3 {
+            background: url(images/r6.avif);
+            background-size: cover;
+        }
+
+        .d4 {
+            background: url(images/r7.avif);
+            background-size: cover;
+        }
+
+        .d5 {
+            background: url(images/r8.avif);
+            background-size: cover;
+        }
+
+        .d6 {
+            background: url(images/r9.avif);
+            background-size: cover;
+        }
+
+        .d7 {
+            background: url(images/r10.avif);
+            background-size: cover;
+        }
+
+        .d8 {
+            background: url(images/r11.avif);
+            background-size: cover;
+        }
+
+        .d9 {
+            background: url(images/r12.avif);
+            background-size: cover;
+        }
+
+        .d10 {
+            background: url(images/r13.avif);
+            background-size: cover;
+        }
+
+
+
+        .d11,
+        .d12,
+        .d13,
+        .d14,
+        .d15,
+        .d16,
+        .d17,
+        .d18,
+        .d19,
+        .d20 {
+            height: 100%;
+            width: 120px;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            background: url(images/r14.avif);
+            background-size: cover;
+
+        }
+
+        .d12 {
+            background: url(images/r15.avif);
+            background-size: cover;
+        }
+
+        .d13 {
+            background: url(images/r16.avif);
+            background-size: cover;
+        }
+
+        .d14 {
+            background: url(images/r17.avif);
+            background-size: cover;
+        }
+
+        .d15 {
+            background: url(images/r18.avif);
+            background-size: cover;
+        }
+
+        .d16 {
+            background: url(images/r19.avif);
+            background-size: cover;
+        }
+
+        .d17 {
+            background: url(images/r20.avif);
+            background-size: cover;
+        }
+
+        .d18 {
+            background: url(images/r21.avif);
+            background-size: cover;
+        }
+
+        .d19 {
+            background: url(images/r22.avif);
+            background-size: cover;
+        }
+
+        .d20 {
+            background: url(images/r23.avif);
+            background-size: cover;
+        }
+
+        .e {
+            height: 320px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+
+        }
+
+        .e1 {
+            height: 100%;
+            width: 15%;
+
+            box-sizing: border-box;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid #f2f2f2;
+            margin-left: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .e11,
+        .e12,
+        .e13,
+        .e14,
+        .e15,
+        .e16 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/a1.avif);
+            background-size: cover;
+        }
+
+        .e12 {
+            background: url(images/a2.avif);
+            background-size: cover;
+        }
+
+        .e13 {
+            background: url(images/a3.avif);
+            background-size: cover;
+        }
+
+        .e14 {
+            background: url(images/a4.avif);
+            background-size: cover;
+        }
+
+        .e15 {
+            background: url(images/a5.avif);
+            background-size: cover;
+        }
+
+        .e16 {
+            background: url(images/a6.avif);
+            background-size: cover;
+        }
+
+        .btn2 {
+            float: right;
+            height: 25px;
+            width: 50px;
+            border: none;
+            outline: none;
+            border: 1px solid var(--gcolor);
+            color: var(--gcolor);
+            background-color: #f7fff9;
+            border-radius: 5px;
+            margin-top: -30px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .e21,
+        .e22,
+        .e23,
+        .e24,
+        .e25,
+        .e26 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/b1.avif);
+            background-size: cover;
+        }
+
+        .e22 {
+            background: url(images/b2.avif);
+            background-size: cover;
+        }
+
+        .e23 {
+            background: url(images/b3.avif);
+            background-size: cover;
+        }
+
+        .e24 {
+            background: url(images/b4.avif);
+            background-size: cover;
+        }
+
+        .e25 {
+            background: url(images/b5.avif);
+            background-size: cover;
+        }
+
+        .e26 {
+            background: url(images/b6.avif);
+            background-size: cover;
+        }
+
+        .e31,
+        .e32,
+        .e33,
+        .e34,
+        .e35,
+        .e36 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/c1.avif);
+            background-size: cover;
+        }
+
+        .e32 {
+            background: url(images/c2.avif);
+            background-size: cover;
+        }
+
+        .e33 {
+            background: url(images/c3.avif);
+            background-size: cover;
+        }
+
+        .e34 {
+            background: url(images/c4.avif);
+            background-size: cover;
+        }
+
+        .e35 {
+            background: url(images/c5.avif);
+            background-size: cover;
+        }
+
+        .e36 {
+            background: url(images/c6.avif);
+            background-size: cover;
+        }
+
+        .e41,
+        .e42,
+        .e43,
+        .e44,
+        .e45,
+        .e46 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/d1.avif);
+            background-size: cover;
+        }
+
+        .e42 {
+            background: url(images/d2.avif);
+            background-size: cover;
+        }
+
+        .e43 {
+            background: url(images/d3.avif);
+            background-size: cover;
+        }
+
+        .e44 {
+            background: url(images/d4.avif);
+            background-size: cover;
+        }
+
+        .e45 {
+            background: url(images/d5.avif);
+            background-size: cover;
+        }
+
+        .e46 {
+            background: url(images/d6.avif);
+            background-size: cover;
+        }
+
+        .e51,
+        .e52,
+        .e53,
+        .e54,
+        .e55,
+        .e56 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/e1.avif);
+            background-size: cover;
+        }
+
+        .e52 {
+            background: url(images/e2.avif);
+            background-size: cover;
+        }
+
+        .e53 {
+            background: url(images/e3.avif);
+            background-size: cover;
+        }
+
+        .e54 {
+            background: url(images/e4.avif);
+            background-size: cover;
+        }
+
+        .e55 {
+            background: url(images/e5.avif);
+            background-size: cover;
+        }
+
+        .e56 {
+            background: url(images/e6.avif);
+            background-size: cover;
+        }
+
+        .e61,
+        .e62,
+        .e63,
+        .e64,
+        .e65,
+        .e66 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/f1.avif);
+            background-size: cover;
+        }
+
+        .e62 {
+            background: url(images/f2.avif);
+            background-size: cover;
+        }
+
+        .e63 {
+            background: url(images/f3.avif);
+            background-size: cover;
+        }
+
+        .e64 {
+            background: url(images/f4.avif);
+            background-size: cover;
+        }
+
+        .e65 {
+            background: url(images/f5.avif);
+            background-size: cover;
+        }
+
+        .e66 {
+            background: url(images/f6.avif);
+            background-size: cover;
+        }
+
+        .e71,
+        .e72,
+        .e73,
+        .e74,
+        .e75,
+        .e76 {
+            height: 120px;
+            width: 120px;
+            margin: auto;
+
+            background: url(images/g1.avif);
+            background-size: cover;
+        }
+
+        .e72 {
+            background: url(images/g2.avif);
+            background-size: cover;
+        }
+
+        .e73 {
+            background: url(images/g3.avif);
+            background-size: cover;
+        }
+
+        .e74 {
+            background: url(images/g4.avif);
+            background-size: cover;
+        }
+
+        .e75 {
+            background: url(images/g5.avif);
+            background-size: cover;
+        }
+
+        .e76 {
+            background: url(images/g6.avif);
+            background-size: cover;
+        }
+
+        .footer {
+            height: 260px;
+
+            width: 100%;
+
+            margin-top: 50px;
+            list-style-type: none;
+        }
+
+        .f1 {
+            height: 260px;
+            width: 40%;
+            float: left;
+
+        }
+
+        .g1 {
+            height: 260px;
+            width: 12%;
+            float: left;
+            padding-left: 50px;
+            box-sizing: border-box;
+
+
+        }
+
+        .f1 ul li,
+        .f2 ul li {
+            list-style-type: none;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .g2 {
+            height: 260px;
+            width: 12%;
+            float: left;
+            padding-left: 130px;
+            box-sizing: border-box;
+        }
+
+        .g3 {
+            height: 260px;
+            width: 12%;
+            float: left;
+            padding-left: 200px;
+            box-sizing: border-box;
+        }
+
+        .f2 {
+            height: 260px;
+            padding: 10px 20px;
+            width: 60%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .h1,
+        .h2,
+        .h3 {
+            height: 260px;
+            width: 30%;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .footer2 {
+            height: 50px;
+            width: 100%;
+            background-color: #f2f2f2;
+            text-align: center;
+            box-sizing: border-box;
+            color: gray;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .f21 {
+            height: 100%;
+            width: 30%;
+            float: left;
+            box-sizing: border-box;
+            line-height: 50px;
+            text-align: right;
+        }
+
+        .f22 {
+            height: 100%;
+            width: 70%;
+            float: left;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .btn3 {
+            height: 30px;
+            width: 150px;
+            border: none;
+            outline: none;
+            line-height: 50px;
+            float: left;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 500;
+            margin-left: 70px;
+
+        }
+
+        .apple {
+            height: 35px;
+            width: 120px;
+            margin-top: 10px;
+            float: left;
+            background: url("images/x1.webp");
+            background-size: cover;
+        }
+
+        .play {
+            height: 35px;
+            width: 120px;
+            margin-top: 10px;
+            margin-left: 15px;
+            float: left;
+            background: url("images/x2.webp");
+            background-size: cover;
+        }
+
+        .f22 i {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            font-size: 25px;
+            line-height: 50px;
+            color: black;
+            float: left;
+            margin-left: 13px;
+        }
