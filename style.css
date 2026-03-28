@@ -1,766 +1,522 @@
-        * {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-
-        .ot {
-            min-height: 1000px;
-            width: 100%;
-            padding: 10px;
-        }
-
-        :root {
-            --gcolor: #318616;
-            --ycolor: #f8cb46;
-
-        }
-
-        .a {
-            height: 80px;
-            width: 100%;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0px 20px;
-            padding-left: 0px;
-            position: sticky;
-            top: 0px;
-            background-color: white;
-            border: 1px solid #f2f2f2;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
-        }
-
-        .a1 {
-            height: 80px;
-            width: 170px;
-            text-align: center;
-            line-height: 80px;
-            box-sizing: border-box;
-            display: inline-block;
-            border: 1px solid #f2f2f2;
-
-        }
-
-        .a1 h1 {
-            font-size: 40px;
-            font-weight: 800;
-            letter-spacing: -2px;
-            color: var(--ycolor);
-        }
-
-        .a2 {
-            height: 80px;
-            width: 300px;
-            box-sizing: border-box;
-            display: inline-block;
-            padding-top: 20px;
-
-
-        }
-
-        .a2 h4 {
-            font-size: 15px;
-            font-weight: 700;
-            letter-spacing: 1px;
-
-        }
-
-        .a2 p {
-            font-size: 10px;
-            font-weight: 500;
-            color: gray;
-            margin-top: 7px;
-        }
-
-        .a3 {
-            height: 50px;
-            width: 450px;
-            border: 1px solid #f2f2f2;
-            box-sizing: border-box;
-            display: inline-block;
-            border-radius: 15px;
-            line-height: 50px;
-            padding: 0px 10px;
-            background-color: #f8f8f8;
-        }
-
-        .a3 input {
-            height: 40px;
-            width: 300px;
-            border: none;
-            outline: none;
-            background-color: #f8f8f8;
-            font-size: 16px;
-            font-weight: 500;
-            margin-left: 10px;
-        }
-
-        .a4 {
-            height: 80px;
-            width: 100px;
-            box-sizing: border-box;
-            display: inline-block;
-            text-align: center;
-            line-height: 80px;
-
-
-        }
-
-        .btn {
-            height: 80px;
-            width: 80px;
-            text-align: center;
-            line-height: 80px;
-            background-color: white;
-            border: none;
-            font-size: 17px;
-            letter-spacing: 1px;
-        }
-
-        .a5 {
-            height: 50px;
-            padding: 10px;
-            width: 120px;
-            box-sizing: border-box;
-            display: inline-block;
-            text-align: center;
-            line-height: 40px;
-            color: white;
-            border-radius: 10px;
-            font-size: 13px;
-            background-color: #e5e5e5;
-        }
-
-        .b {
-            height: 220px;
-            width: 100%;
-
-            box-sizing: border-box;
-
-
-
-            background: url('images/1.webp');
-            background-size: cover;
-        }
-
-        .c {
-            height: 260px;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 10px;
-
-        }
-
-        .c1,
-        .c2,
-        .c3 {
-            height: 230px;
-            width: 32%;
-            margin-left: 10px;
-            background: url(images/r1.avif);
-            background-size: cover;
-            display: inline-block;
-        }
-
-        .c2 {
-            background: url(images/r2.avif);
-            background-size: cover;
-        }
-
-        .c3 {
-            background: url(images/r3.avif);
-            background-size: cover;
-
-        }
-
-        .d {
-            height: 180px;
-            width: 100%;
-            box-sizing: border-box;
-
-        }
-
-        .d1,
-        .d2,
-        .d3,
-        .d4,
-        .d5,
-        .d6,
-        .d7,
-        .d8,
-        .d9,
-        .d10 {
-            height: 100%;
-            width: 120px;
-            box-sizing: border-box;
-            display: inline-block;
-            text-align: center;
-            background: url(images/r4.avif);
-            background-size: cover;
-
-        }
-
-        .d2 {
-            background: url(images/r5.avif);
-            background-size: cover;
-        }
-
-        .d3 {
-            background: url(images/r6.avif);
-            background-size: cover;
-        }
-
-        .d4 {
-            background: url(images/r7.avif);
-            background-size: cover;
-        }
-
-        .d5 {
-            background: url(images/r8.avif);
-            background-size: cover;
-        }
-
-        .d6 {
-            background: url(images/r9.avif);
-            background-size: cover;
-        }
-
-        .d7 {
-            background: url(images/r10.avif);
-            background-size: cover;
-        }
-
-        .d8 {
-            background: url(images/r11.avif);
-            background-size: cover;
-        }
-
-        .d9 {
-            background: url(images/r12.avif);
-            background-size: cover;
-        }
-
-        .d10 {
-            background: url(images/r13.avif);
-            background-size: cover;
-        }
-
-
-
-        .d11,
-        .d12,
-        .d13,
-        .d14,
-        .d15,
-        .d16,
-        .d17,
-        .d18,
-        .d19,
-        .d20 {
-            height: 100%;
-            width: 120px;
-            box-sizing: border-box;
-            display: inline-block;
-            text-align: center;
-            background: url(images/r14.avif);
-            background-size: cover;
-
-        }
-
-        .d12 {
-            background: url(images/r15.avif);
-            background-size: cover;
-        }
-
-        .d13 {
-            background: url(images/r16.avif);
-            background-size: cover;
-        }
-
-        .d14 {
-            background: url(images/r17.avif);
-            background-size: cover;
-        }
-
-        .d15 {
-            background: url(images/r18.avif);
-            background-size: cover;
-        }
-
-        .d16 {
-            background: url(images/r19.avif);
-            background-size: cover;
-        }
-
-        .d17 {
-            background: url(images/r20.avif);
-            background-size: cover;
-        }
-
-        .d18 {
-            background: url(images/r21.avif);
-            background-size: cover;
-        }
-
-        .d19 {
-            background: url(images/r22.avif);
-            background-size: cover;
-        }
-
-        .d20 {
-            background: url(images/r23.avif);
-            background-size: cover;
-        }
-
-        .e {
-            height: 320px;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 20px;
-
-        }
-
-        .e1 {
-            height: 100%;
-            width: 15%;
-
-            box-sizing: border-box;
-            padding: 10px;
-            display: inline-block;
-            border: 1px solid #f2f2f2;
-            margin-left: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .e11,
-        .e12,
-        .e13,
-        .e14,
-        .e15,
-        .e16 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/a1.avif);
-            background-size: cover;
-        }
-
-        .e12 {
-            background: url(images/a2.avif);
-            background-size: cover;
-        }
-
-        .e13 {
-            background: url(images/a3.avif);
-            background-size: cover;
-        }
-
-        .e14 {
-            background: url(images/a4.avif);
-            background-size: cover;
-        }
-
-        .e15 {
-            background: url(images/a5.avif);
-            background-size: cover;
-        }
-
-        .e16 {
-            background: url(images/a6.avif);
-            background-size: cover;
-        }
-
-        .btn2 {
-            float: right;
-            height: 25px;
-            width: 50px;
-            border: none;
-            outline: none;
-            border: 1px solid var(--gcolor);
-            color: var(--gcolor);
-            background-color: #f7fff9;
-            border-radius: 5px;
-            margin-top: -30px;
-            font-size: 15px;
-            font-weight: 600;
-        }
-
-        .e21,
-        .e22,
-        .e23,
-        .e24,
-        .e25,
-        .e26 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/b1.avif);
-            background-size: cover;
-        }
-
-        .e22 {
-            background: url(images/b2.avif);
-            background-size: cover;
-        }
-
-        .e23 {
-            background: url(images/b3.avif);
-            background-size: cover;
-        }
-
-        .e24 {
-            background: url(images/b4.avif);
-            background-size: cover;
-        }
-
-        .e25 {
-            background: url(images/b5.avif);
-            background-size: cover;
-        }
-
-        .e26 {
-            background: url(images/b6.avif);
-            background-size: cover;
-        }
-
-        .e31,
-        .e32,
-        .e33,
-        .e34,
-        .e35,
-        .e36 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/c1.avif);
-            background-size: cover;
-        }
-
-        .e32 {
-            background: url(images/c2.avif);
-            background-size: cover;
-        }
-
-        .e33 {
-            background: url(images/c3.avif);
-            background-size: cover;
-        }
-
-        .e34 {
-            background: url(images/c4.avif);
-            background-size: cover;
-        }
-
-        .e35 {
-            background: url(images/c5.avif);
-            background-size: cover;
-        }
-
-        .e36 {
-            background: url(images/c6.avif);
-            background-size: cover;
-        }
-
-        .e41,
-        .e42,
-        .e43,
-        .e44,
-        .e45,
-        .e46 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/d1.avif);
-            background-size: cover;
-        }
-
-        .e42 {
-            background: url(images/d2.avif);
-            background-size: cover;
-        }
-
-        .e43 {
-            background: url(images/d3.avif);
-            background-size: cover;
-        }
-
-        .e44 {
-            background: url(images/d4.avif);
-            background-size: cover;
-        }
-
-        .e45 {
-            background: url(images/d5.avif);
-            background-size: cover;
-        }
-
-        .e46 {
-            background: url(images/d6.avif);
-            background-size: cover;
-        }
-
-        .e51,
-        .e52,
-        .e53,
-        .e54,
-        .e55,
-        .e56 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/e1.avif);
-            background-size: cover;
-        }
-
-        .e52 {
-            background: url(images/e2.avif);
-            background-size: cover;
-        }
-
-        .e53 {
-            background: url(images/e3.avif);
-            background-size: cover;
-        }
-
-        .e54 {
-            background: url(images/e4.avif);
-            background-size: cover;
-        }
-
-        .e55 {
-            background: url(images/e5.avif);
-            background-size: cover;
-        }
-
-        .e56 {
-            background: url(images/e6.avif);
-            background-size: cover;
-        }
-
-        .e61,
-        .e62,
-        .e63,
-        .e64,
-        .e65,
-        .e66 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/f1.avif);
-            background-size: cover;
-        }
-
-        .e62 {
-            background: url(images/f2.avif);
-            background-size: cover;
-        }
-
-        .e63 {
-            background: url(images/f3.avif);
-            background-size: cover;
-        }
-
-        .e64 {
-            background: url(images/f4.avif);
-            background-size: cover;
-        }
-
-        .e65 {
-            background: url(images/f5.avif);
-            background-size: cover;
-        }
-
-        .e66 {
-            background: url(images/f6.avif);
-            background-size: cover;
-        }
-
-        .e71,
-        .e72,
-        .e73,
-        .e74,
-        .e75,
-        .e76 {
-            height: 120px;
-            width: 120px;
-            margin: auto;
-
-            background: url(images/g1.avif);
-            background-size: cover;
-        }
-
-        .e72 {
-            background: url(images/g2.avif);
-            background-size: cover;
-        }
-
-        .e73 {
-            background: url(images/g3.avif);
-            background-size: cover;
-        }
-
-        .e74 {
-            background: url(images/g4.avif);
-            background-size: cover;
-        }
-
-        .e75 {
-            background: url(images/g5.avif);
-            background-size: cover;
-        }
-
-        .e76 {
-            background: url(images/g6.avif);
-            background-size: cover;
-        }
-
-        .footer {
-            height: 260px;
-
-            width: 100%;
-
-            margin-top: 50px;
-            list-style-type: none;
-        }
-
-        .f1 {
-            height: 260px;
-            width: 40%;
-            float: left;
-
-        }
-
-        .g1 {
-            height: 260px;
-            width: 12%;
-            float: left;
-            padding-left: 50px;
-            box-sizing: border-box;
-
-
-        }
-
-        .f1 ul li,
-        .f2 ul li {
-            list-style-type: none;
-            font-size: 14px;
-            color: #666666;
-        }
-
-        .g2 {
-            height: 260px;
-            width: 12%;
-            float: left;
-            padding-left: 130px;
-            box-sizing: border-box;
-        }
-
-        .g3 {
-            height: 260px;
-            width: 12%;
-            float: left;
-            padding-left: 200px;
-            box-sizing: border-box;
-        }
-
-        .f2 {
-            height: 260px;
-            padding: 10px 20px;
-            width: 60%;
-            box-sizing: border-box;
-            float: left;
-        }
-
-        .h1,
-        .h2,
-        .h3 {
-            height: 260px;
-            width: 30%;
-            display: inline-block;
-            margin-left: 10px;
-        }
-
-        .footer2 {
-            height: 50px;
-            width: 100%;
-            background-color: #f2f2f2;
-            text-align: center;
-            box-sizing: border-box;
-            color: gray;
-            font-size: 14px;
-            margin-top: 20px;
-        }
-
-        .f21 {
-            height: 100%;
-            width: 30%;
-            float: left;
-            box-sizing: border-box;
-            line-height: 50px;
-            text-align: right;
-        }
-
-        .f22 {
-            height: 100%;
-            width: 70%;
-            float: left;
-            box-sizing: border-box;
-            text-align: center;
-        }
-
-        .btn3 {
-            height: 30px;
-            width: 150px;
-            border: none;
-            outline: none;
-            line-height: 50px;
-            float: left;
-            border-radius: 5px;
-            font-size: 15px;
-            font-weight: 500;
-            margin-left: 70px;
-
-        }
-
-        .apple {
-            height: 35px;
-            width: 120px;
-            margin-top: 10px;
-            float: left;
-            background: url("images/x1.webp");
-            background-size: cover;
-        }
-
-        .play {
-            height: 35px;
-            width: 120px;
-            margin-top: 10px;
-            margin-left: 15px;
-            float: left;
-            background: url("images/x2.webp");
-            background-size: cover;
-        }
-
-        .f22 i {
-            height: 30px;
-            width: 30px;
-            border-radius: 50%;
-            font-size: 25px;
-            line-height: 50px;
-            color: black;
-            float: left;
-            margin-left: 13px;
-        }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --gcolor: #318616;
+    --ycolor: #f8cb46;
+    --light-gray: #f8f8f8;
+    --border-color: #f2f2f2;
+    --text-muted: #666666;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fcfcfc;
+}
+
+.ot {
+    width: 100%;
+    max-width: 1440px; /* Limits max width on huge screens */
+    margin: auto;
+    background-color: white;
+}
+
+
+   /* Navigation Bar */
+
+.a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    gap: 15px;
+}
+
+.a1 h1 {
+    font-size: clamp(24px, 4vw, 40px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: var(--ycolor);
+}
+
+.a2 {
+    flex: 1;
+    min-width: 200px;
+}
+
+.a2 h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.a2 p {
+    font-size: 11px;
+    color: gray;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.a3 {
+    flex: 2;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+.a3 input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.a4 .btn {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.a5 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--gcolor);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.a5 i {
+    color: white !important;
+}
+
+/* =========================================
+   Hero Banner
+========================================= */
+.b {
+    height: 220px;
+    width: 100%;
+    background-image: url('images/1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================================
+   Horizontal Scrolling Containers
+========================================= */
+.c, .d, .e {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbars for a cleaner UI */
+.c::-webkit-scrollbar, .d::-webkit-scrollbar, .e::-webkit-scrollbar {
+    display: none;
+}
+
+/* Big Banners */
+.c > div {
+    flex: 0 0 32%;
+    min-width: 280px;
+    height: 230px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Circle Categories */
+.d > div {
+    flex: 0 0 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================================
+   Product Rows
+========================================= */
+.e {
+    flex-wrap: nowrap;
+    position: relative;
+    padding-top: 40px; /* Space for the header */
+}
+
+.e > h3 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.e > h3 span {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   Product Cards Styling (Fixed)
+========================================= */
+
+/* Hide all <br> tags inside cards to fix spacing issues automatically */
+.e1 br { 
+    display: none; 
+}
+
+.e1 {
+    flex: 0 0 180px; /* Thoda sa width badhaya for better breathing space */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.03); /* Subtle shadow */
+    position: relative;
+    min-height: 310px;
+    margin-right: 15px;
+}
+
+/* Product Image */
+.e1 > div[class^="e"] {
+    height: 110px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 12px;
+}
+
+/* 8 MINS Badge (Timer) */
+.e1 small {
+    align-self: flex-start; /* Badge ko left align karega */
+    background-color: #f8f8f8 !important; 
+    padding: 4px 6px !important;
+    border-radius: 4px;
+    font-size: 10px !important;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Product Title */
+.e1 h5 {
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #1f1f1f;
+    /* Yeh text ko 2 lines tak limit karega aur extra par '...' laga dega */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 36px; /* Title ki height fix kar di taki sab cards barabar dikhein */
+    margin-bottom: 5px;
+}
+
+/* Quantity Text (500 ml, 100g etc) */
+.e1 p {
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Price Section */
+.e1 h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: auto; /* Yeh magic property price aur button ko hamesha bottom par push karegi */
+    display: flex;
+    flex-direction: column; /* Original aur discounted price ko upar-neeche karega */
+    justify-content: flex-end;
+}
+
+.e1 h3 span {
+    font-size: 12px !important;
+    margin-top: 2px;
+}
+
+/* ADD Button */
+.btn2 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid var(--gcolor);
+    color: var(--gcolor);
+    background-color: #f7fff9;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect on Add Button */
+.btn2:hover {
+    background-color: var(--gcolor);
+    color: white;
+}
+
+/* Hover effect on Card */
+.e1:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+/* =========================================
+   Footer Area
+========================================= */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #eee;
+}
+
+.f1, .f2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.g1, .g2, .g3, .h1, .h2, .h3 {
+    flex: 1;
+    min-width: 140px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: gray;
+    gap: 15px;
+}
+
+.f22 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn3 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.apple, .play {
+    height: 35px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.apple { background-image: url("images/x1.webp"); }
+.play { background-image: url("images/x2.webp"); }
+
+.f22 i {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* =========================================
+   Mobile Responsiveness (Media Queries)
+========================================= */
+@media (max-width: 768px) {
+    .a {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .a2 {
+        display: none; /* Hides address on small screens */
+    }
+    .a3 {
+        order: 3; /* Moves search bar to bottom of nav */
+        width: 100%;
+    }
+    .a1 {
+        width: auto;
+        border: none;
+    }
+    .c > div {
+        flex: 0 0 85%; /* Larger banners on mobile */
+    }
+}
+
+/* =========================================
+   Image URL Mapping (Preserved Data)
+========================================= */
+.c1 { background-image: url(images/r1.avif); }
+.c2 { background-image: url(images/r2.avif); }
+.c3 { background-image: url(images/r3.avif); }
+.d1 { background-image: url(images/r4.avif); }
+.d2 { background-image: url(images/r5.avif); }
+.d3 { background-image: url(images/r6.avif); }
+.d4 { background-image: url(images/r7.avif); }
+.d5 { background-image: url(images/r8.avif); }
+.d6 { background-image: url(images/r9.avif); }
+.d7 { background-image: url(images/r10.avif); }
+.d8 { background-image: url(images/r11.avif); }
+.d9 { background-image: url(images/r12.avif); }
+.d10 { background-image: url(images/r13.avif); }
+.d11 { background-image: url(images/r14.avif); }
+.d12 { background-image: url(images/r15.avif); }
+.d13 { background-image: url(images/r16.avif); }
+.d14 { background-image: url(images/r17.avif); }
+.d15 { background-image: url(images/r18.avif); }
+.d16 { background-image: url(images/r19.avif); }
+.d17 { background-image: url(images/r20.avif); }
+.d18 { background-image: url(images/r21.avif); }
+.d19 { background-image: url(images/r22.avif); }
+.d20 { background-image: url(images/r23.avif); }
+
+.e11 { background-image: url(images/a1.avif); }
+.e12 { background-image: url(images/a2.avif); }
+.e13 { background-image: url(images/a3.avif); }
+.e14 { background-image: url(images/a4.avif); }
+.e15 { background-image: url(images/a5.avif); }
+.e16 { background-image: url(images/a6.avif); }
+
+.e21 { background-image: url(images/b1.avif); }
+.e22 { background-image: url(images/b2.avif); }
+.e23 { background-image: url(images/b3.avif); }
+.e24 { background-image: url(images/b4.avif); }
+.e25 { background-image: url(images/b5.avif); }
+.e26 { background-image: url(images/b6.avif); }
+
+.e31 { background-image: url(images/c1.avif); }
+.e32 { background-image: url(images/c2.avif); }
+.e33 { background-image: url(images/c3.avif); }
+.e34 { background-image: url(images/c4.avif); }
+.e35 { background-image: url(images/c5.avif); }
+.e36 { background-image: url(images/c6.avif); }
+
+.e41 { background-image: url(images/d1.avif); }
+.e42 { background-image: url(images/d2.avif); }
+.e43 { background-image: url(images/d3.avif); }
+.e44 { background-image: url(images/d4.avif); }
+.e45 { background-image: url(images/d5.avif); }
+.e46 { background-image: url(images/d6.avif); }
+
+.e51 { background-image: url(images/e1.avif); }
+.e52 { background-image: url(images/e2.avif); }
+.e53 { background-image: url(images/e3.avif); }
+.e54 { background-image: url(images/e4.avif); }
+.e55 { background-image: url(images/e5.avif); }
+.e56 { background-image: url(images/e6.avif); }
+
+.e61 { background-image: url(images/f1.avif); }
+.e62 { background-image: url(images/f2.avif); }
+.e63 { background-image: url(images/f3.avif); }
+.e64 { background-image: url(images/f4.avif); }
+.e65 { background-image: url(images/f5.avif); }
+.e66 { background-image: url(images/f6.avif); }
+
+.e71 { background-image: url(images/g1.avif); }
+.e72 { background-image: url(images/g2.avif); }
+.e73 { background-image: url(images/g3.avif); }
+.e74 { background-image: url(images/g4.avif); }
+.e75 { background-image: url(images/g5.avif); }
+.e76 { background-image: url(images/g6.avif); }
+
+
+/* =========================================
+   Dynamic Quantity Counter Styling
+========================================= */
+.qty-container {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+    height: 30px;
+    background-color: var(--gcolor); /* Green background */
+    color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    /* Shuru mein yeh hide rahega, JS isko show karega */
+    display: none; 
+}
+
+.qty-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 25px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.qty-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Thoda dark effect click karne par */
+}
+
+.qty-val {
+    font-size: 14px;
+    font-weight: 700;
+}

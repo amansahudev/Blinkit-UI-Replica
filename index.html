@@ -772,4 +772,69 @@
     </div>
 </body>
 
+
+<script>
+        // Jab pura page load ho jaye, tab yeh script chalegi
+        document.addEventListener('DOMContentLoaded', () => {
+            // Saare 'ADD' buttons ko select kar lo
+            const addButtons = document.querySelectorAll('.btn2');
+
+            addButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 1. Jaise hi 'ADD' click ho, original button ko hide kar do
+                    this.style.display = 'none';
+
+                    // 2. Ek naya Quantity Container banao
+                    const qtyContainer = document.createElement('div');
+                    qtyContainer.className = 'qty-container';
+                    qtyContainer.style.display = 'flex'; // Isko dikhao
+
+                    // 3. Minus Button banao
+                    const minusBtn = document.createElement('button');
+                    minusBtn.className = 'qty-btn';
+                    minusBtn.innerText = '−';
+
+                    // 4. Quantity Display (Shuru mein 1 hoga)
+                    const qtyVal = document.createElement('span');
+                    qtyVal.className = 'qty-val';
+                    qtyVal.innerText = '1';
+                    let currentQty = 1;
+
+                    // 5. Plus Button banao
+                    const plusBtn = document.createElement('button');
+                    plusBtn.className = 'qty-btn';
+                    plusBtn.innerText = '+';
+
+                    // 6. In teeno ko container ke andar daal do
+                    qtyContainer.appendChild(minusBtn);
+                    qtyContainer.appendChild(qtyVal);
+                    qtyContainer.appendChild(plusBtn);
+
+                    // 7. Is naye container ko original button ke theek baad HTML mein daal do
+                    this.parentNode.insertBefore(qtyContainer, this.nextSibling);
+
+                    // --- Event Listeners for + and - ---
+                    
+                    // Plus par click karne par number badhao
+                    plusBtn.addEventListener('click', () => {
+                        currentQty++;
+                        qtyVal.innerText = currentQty;
+                    });
+
+                    // Minus par click karne par number ghatao
+                    minusBtn.addEventListener('click', () => {
+                        currentQty--;
+                        if (currentQty === 0) {
+                            // Agar 0 ho jaye, toh ye counter delete kar do aur wapas 'ADD' button dikha do
+                            qtyContainer.remove();
+                            this.style.display = 'block';
+                        } else {
+                            qtyVal.innerText = currentQty;
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
 </html>
