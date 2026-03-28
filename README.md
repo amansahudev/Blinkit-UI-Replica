@@ -33,22 +33,21 @@ To view this project locally, simply clone the repository and open the HTML file
 
 ```bash
 # Clone the repository
-git clone [https://github.com/amansahudev/blinkit-clone.git](https://github.com/amansahudev/blinkit-clone.git)
+git clone [https://github.com/amansahudev/Blinkit-UI-Replica.git](https://github.com/amansahudev/Blinkit-UI-Replica.git)
 
 # Navigate into the directory
-cd blinkit-clone
-
-## 👨‍💻 Author
-
-**Aman Sahu** *Aspiring .NET Full Stack Developer* * **GitHub:** [@amansahudev](https://github.com/amansahudev)
-* **LinkedIn:** [Aman Sahu](https://www.linkedin.com/in/amansahudev/)
-
-## 🤝 Contributing
-
-This project was built for learning and portfolio building. Contributions, issues, and feature requests are always welcome! Feel free to fork the repository and submit a pull request if you'd like to improve the UI or add new features.
-
-## 📜 License
-
-This project is open-source and free to use for learning purposes.
+cd Blinkit-UI-Replica
 
 # Open index.html in your default web browser
+
+
+👨‍💻 Author
+Aman Sahu Aspiring .NET Full Stack Developer * GitHub: @amansahudev
+
+LinkedIn: Aman Sahu
+
+🤝 Contributing
+This project was built for learning and portfolio building. Contributions, issues, and feature requests are always welcome! Feel free to fork the repository and submit a pull request if you'd like to improve the UI or add new features.
+
+📜 License
+This project is open-source and free to use for learning purposes.
