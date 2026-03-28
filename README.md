@@ -10,8 +10,8 @@ A pixel-perfect, fully responsive front-end replica of the Blinkit (formerly Gro
 👉 **[Insert your live hosting link here, e.g., GitHub Pages link]**
 
 ## 📸 Screenshots
-*(Tip: Add a screenshot or a short GIF of your project in action here!)*
-> `<img src="link-to-your-image.jpg" width="800" alt="Blinkit UI Clone Screenshot">`
+
+> <img src="images/image.png" width="800" alt="Blinkit UI Clone Screenshot">
 
 ## 🚀 Features
 
@@ -37,5 +37,18 @@ git clone [https://github.com/amansahudev/blinkit-clone.git](https://github.com/
 
 # Navigate into the directory
 cd blinkit-clone
+
+## 👨‍💻 Author
+
+**Aman Sahu** *Aspiring .NET Full Stack Developer* * **GitHub:** [@amansahudev](https://github.com/amansahudev)
+* **LinkedIn:** [Aman Sahu](https://www.linkedin.com/in/amansahudev/)
+
+## 🤝 Contributing
+
+This project was built for learning and portfolio building. Contributions, issues, and feature requests are always welcome! Feel free to fork the repository and submit a pull request if you'd like to improve the UI or add new features.
+
+## 📜 License
+
+This project is open-source and free to use for learning purposes.
 
 # Open index.html in your default web browser
